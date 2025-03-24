@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bezpieczeństwo IoT</title>
+    <style>
+        /* Reset stylów */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Nagłówek */
+        header {
+            background: #004aad;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header h3 {
+            font-size: 1.5em;
+            margin: 15px 0; /* Odstęp między h3 a p */
+            color: #ffcc00;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        /* Sekcje */
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #004aad;
+        }
+
+        /* Karty zagrożeń */
+        .card {
+            background: #f4f4f4;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h3 {
+            color: #d9534f;
+            font-size: 1.6em;
+            margin-bottom: 20px; /* Większy odstęp między h3 a p */
+        }
+
+        .card p {
+            font-size: 1.1em;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Lista ochrony */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #e8f0ff;
+            margin: 10px auto;
+            padding: 15px;
+            width: 70%;
+            max-width: 600px;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+
+        /* Stopka */
+        footer {
+            background: #003580;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bezpieczeństwo Internetu Rzeczy</h1>
+        <h3>Projekt VPN</h3>
+        <p>Wykonawcy: Bartosz Rychlicki, Fabian Popielewski, Paweł Magdziński - TTIR</p>
+    </header>
+
+    <section>
+        <h2>Wprowadzenie</h2>
+        <p>Internet Rzeczy (IoT) łączy miliony urządzeń, ale niesie ze sobą poważne zagrożenia.</p>
+    </section>
+
+    <section>
+        <h2>Zagrożenia</h2>
+        <div class="card">
+            <h3>Ataki DDoS</h3>
+            <p>Zainfekowane urządzenia IoT mogą być używane do przeprowadzania ataków na sieci.</p>
+        </div>
+        <div class="card">
+            <h3>Podsłuch</h3>
+            <p>Niezaszyfrowana komunikacja pozwala hakerom przechwytywać dane.</p>
+        </div>
+        <div class="card">
+            <h3>Nieaktualne oprogramowanie</h3>
+            <p>Starsze urządzenia IoT mogą zawierać niezałatane luki bezpieczeństwa.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Jak się chronić?</h2>
+        <ul>
+            <li>Stosuj szyfrowanie i VPN.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Projekt VPN | Wszelkie prawa zastrzeżone</p>
+    </footer>
+
+</body>
+</html>
+
